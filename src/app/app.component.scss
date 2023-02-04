@@ -1,0 +1,22 @@
+
+h1{
+    margin-left: 200px;
+    color: rgb(13, 105, 106);
+    margin-top: 80px;
+    font-size: 48px;
+}
+button {
+    align-self: center;
+    padding: 15px 12px;
+    background-color:rgb(13, 105, 106);
+    background-image: linear-gradient(to right,rgb(13, 105, 106), rgb(7, 227, 219));
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    justify-self: center;
+    margin-left: 220px;
+    &:hover{
+        background-image: linear-gradient(to right,rgb(32, 140, 142), rgb(10, 238, 231));
+    }
+}

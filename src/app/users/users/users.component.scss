@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+  margin-left: 200px;
+
+  li {
+    cursor: pointer;
+    padding: 10px 12px;
+    background-color: rgb(25, 127, 128);
+    background-image: linear-gradient(to right,rgb(25, 127, 128), rgb(51, 156, 158));
+    color: white;
+    border-radius: 5px;
+    &:hover {
+        background-image: linear-gradient(to right,rgb(34, 165, 167), rgb(89, 243, 246)); 
+    }
+  }
+
+}
